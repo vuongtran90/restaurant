@@ -1,13 +1,8 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyText
-  price: 1
-  image_url: MyString
-
-two:
-  name: MyString
-  description: MyText
-  price: 1
-  image_url: MyString
+  name: "Com Tam"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae ex vitae lacus consequat luctus sit amet vitae leo. Fusce porta tempus gravida. Curabitur vehicula viverra orci, a dictum neque lobortis non. Nunc a aliquam augue, quis blandit sem. Donec tincidunt tincidunt erat, sit amet eleifend sapien elementum nec. Integer at maximus nisl. Maecenas vitae mollis ligula, ullamcorper suscipit odio. Fusce ut elit id mi vestibulum suscipit. Etiam suscipit sodales elit, sed consequat turpis. Pellentesque tincidunt quam vel dui euismod, at commodo quam iaculis. Ut vulputate justo sit amet egestas consectetur. Donec non augue mollis, vehicula diam eget, imperdiet tellus."
+  price: 40000
+  image_url: "http://www.monanngon3mien.com/wp-content/uploads/2014/09/cach-uop-thit-suon-nuong-com-tam.jpg"
+  section_id: 1

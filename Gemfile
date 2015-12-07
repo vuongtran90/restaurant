@@ -3,6 +3,7 @@ ruby "2.0.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
+gem 'heroku', '~> 3.42', '>= 3.42.22'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3'
