@@ -6,13 +6,18 @@
 		<li><%= link_to section.name, foods_path(section: section.name) %></li>
 	<% end %>
 	</ul>
+	<ul class="rnav">
+		<li><%= link_to 'Contact', contact_path %></li>
+	</ul>
 </div>
 <div class="detail">
 	<div class="ldetail">
-		<p><%= @food.name %></p>
-		<p><%= @food.description %></p>
-		<p><%= @food.price %></p>
-		<%= link_to 'Order', new_order_path %>
+		<h2 class="fname"><%= @food.name %></h2>
+		<p class="fdescription"><%= @food.description %></p>
+		<input type="text" name="name" placeholder="Name . . ."><br>
+		<input type="text" name="phone" placeholder="Phone"><br>
+		<textarea type="text" name="address" placeholder="Address"></textarea>
+		<%= link_to 'Order' %>
 	</div>
 	<div class="rdetail">
 		<%= image_tag (@food.image_url) %>

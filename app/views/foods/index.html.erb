@@ -1,3 +1,4 @@
+
 <div class="food_nav">
 	<%= link_to image_tag("res_logo.png"), root_path %>
 	<ul>
@@ -5,6 +6,9 @@
 	<% Section.all.each do |section| %>
 		<li><%= link_to section.name, foods_path(section: section.name) %></li>
 	<% end %>
+	</ul>
+	<ul class="rnav">
+		<li><%= link_to 'Contact', contact_path %></li>
 	</ul>
 </div>
 <div class="foodsbox">

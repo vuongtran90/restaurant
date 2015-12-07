@@ -157,8 +157,73 @@ div.detail {
 div.ldetail {
 	position: absolute;
 	z-index: 10;
+	top: 20%;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+div.ldetail h2 {
+	font-size: 40px;
+}
+div.ldetail .fdescription {
+	font-size: 20px;
+	margin-top: 30px;
 }
 div.rdetail img {
 	width: 100%;
 	opacity: 0.1;
+}
+div.ldetail a {
+    color: #fff;
+    margin-right: 20px;
+    border: 1px solid #fff;
+    padding: 15px 0;
+    width: 250px;
+    margin: 50px auto;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+div.ldetail input,
+div.ldetail textarea{
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+div.ldetail label {
+    vertical-align: middle;
+    width: 100px;
+    display: inline-block;
+    padding-top: 10px;
+}
+div.ldetail input{
+    height: 35px;
+    margin-bottom: 20px;
+}
+div.ldetail textarea {
+	min-height: 100px;
+}
+.fdescription {
+	margin-bottom: 40px;
+    padding: 0px 60px;
+}
+::-webkit-input-placeholder {
+   padding-left: 10px;
+}
+
+:-moz-placeholder { 
+   padding-left: 10px; 
+}
+
+::-moz-placeholder {  
+   padding-left: 10px;
+}
+
+:-ms-input-placeholder {  
+   padding-left: 10px;
+}
+.rnav {
+	float: right !important;
+	margin-right: 10px;
 }

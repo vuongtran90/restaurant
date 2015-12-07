@@ -1,7 +1,0 @@
-<h1>sad</h1>
-<%= form_for @order do |order| %>
-  <%= form.text_field :title %></br>
-  <%= "Title #{@order.errors[:title]}" if @order.errors[:title] %></br>
-  <%= form.text_area :body %></br>
-  <%= form.submit %>
-<% end -%>

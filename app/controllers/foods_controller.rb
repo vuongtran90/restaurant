@@ -1,5 +1,12 @@
 class FoodsController < ApplicationController
 	def index
+
+		# if params[:search]
+		# 	@foods = Food.search(params[:search]).order("created_at DESC")
+		# else
+		# 	@foods = Food.all
+		# end
+		
 		if params[:section].blank?
 			@foods = Food.all
 		else
