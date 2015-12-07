@@ -17,8 +17,8 @@ The following **required** functionality is complete:
 ## Notes
 
 Describe any challenges encountered while building the app.
-	*	When I am deploying on Heroku, I had sass syntax errors.
-	*	I want to know how to use multiple if else condition in controller.
+* [ ] When I am deploying on Heroku, I had sass syntax errors.
+* [ ] I want to know how to use multiple if else condition in controller.
 ## License
 
     Copyright 2015 Vuong Tran
