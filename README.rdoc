@@ -6,7 +6,7 @@ Submitted by: Tran Anh Vuong
 
 Time spent: 6 hours spent in total
 
-URL: 
+URL: http://csrestaurant.herokuapp.com/
 
 ## User Stories
 
@@ -19,6 +19,15 @@ The following **required** functionality is complete:
 Describe any challenges encountered while building the app.
 * [ ] When I am deploying on Heroku, I had sass syntax errors.
 * [ ] I want to know how to use multiple if else condition in controller.
+
+## Video Walkthrough 
+Here's a walkthrough of implemented user stories:
+
+![Video Walkthrough](http://imageshack.com/a/img633/1047/z4oqUp.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+
 ## License
 
     Copyright 2015 Vuong Tran
